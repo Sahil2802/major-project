@@ -4,26 +4,25 @@ This project is a web application that classifies medicinal plants from images o
 
 ## Features
 
--   **Image-based Classification:** Predicts the species of a medicinal plant from an uploaded leaf image.
--   **Background Removal:** Automatically removes the background from the uploaded image for better prediction accuracy.
--   **Web-based Interface:** A user-friendly interface built with React for easy interaction.
--   **Deep Learning Model:** Utilizes a pre-trained VGG16 model for feature extraction and a LightGBM model for classification.
+- **Image-based Classification:** Predicts the species of a medicinal plant from an uploaded leaf image.
+- **Background Removal:** Automatically removes the background from the uploaded image for better prediction accuracy.
+- **Web-based Interface:** A user-friendly interface built with React for easy interaction.
+- **Deep Learning Model:** Utilizes a pre-trained VGG16 model for feature extraction and a LightGBM model for classification.
 
 ## Technologies Used
 
 ### Backend
 
--   Python
--   Flask
--   TensorFlow/Keras
--   LightGBM
--   Pillow
+- Python
+- Flask
+- TensorFlow/Keras
+- LightGBM
 
 ### Frontend
 
--   React
--   Axios
--   Tailwind CSS (implicitly used via class names)
+- React
+- Axios
+- Tailwind CSS
 
 ## Setup and Installation
 
@@ -32,18 +31,21 @@ To run this project locally, you will need to set up both the backend server and
 ### Backend Setup
 
 1.  **Clone the repository:**
+
     ```bash
     git clone <repository-url>
     cd <repository-folder>
     ```
 
 2.  **Create a virtual environment and activate it:**
+
     ```bash
     python -m venv venv
     source venv/bin/activate  # On Windows, use `venv\Scripts\activate`
     ```
 
 3.  **Install the required Python packages:**
+
     ```bash
     pip install Flask tensorflow lightgbm Pillow numpy
     ```
@@ -57,11 +59,13 @@ To run this project locally, you will need to set up both the backend server and
 ### Frontend Setup
 
 1.  **Navigate to the `Webapp` directory:**
+
     ```bash
     cd Webapp
     ```
 
 2.  **Install the required npm packages:**
+
     ```bash
     npm install
     ```
